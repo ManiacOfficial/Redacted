@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "agentdefault": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "secure:y2mate.com_-_ortnite_default_dance_sound_35y5tqg",
+        "stream": false
+      }
+    ]
   }
 }

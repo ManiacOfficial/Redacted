@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "agentdefault",
+    "name": "Agent Default",
+    "description": "Great For Alex/Steve Skins!",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:agentdefault"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

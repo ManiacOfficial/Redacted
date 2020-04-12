@@ -84,6 +84,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "AgentDefault",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -92,14 +100,21 @@
       "name": "itemactivation",
       "file": "itemactivate",
       "category": "master"
+    },
+    {
+      "name": "agentdefault",
+      "file": "y2mate.com_-_ortnite_default_dance_sound_35y5tqg",
+      "category": "master"
     }
   ],
   "language_map": {
     "en_us": {
       "item.secure.rds": "Redacted Stick",
+      "item.secure.agentdefault": "Agent Default",
       "item.minecraft.lingering_potion.effect.redaction": "Lingering Redaction",
       "item.minecraft.potion.effect.redaction": "Redaction",
       "effect.redaction": "Redaction",
+      "item.secure.agentdefault.desc": "Great For Alex/Steve Skins!",
       "item.secure.redactedsword": "Redacted Sword",
       "item.minecraft.splash_potion.effect.redaction": "Splash Redaction",
       "item.minecraft.tipped_arrow.effect.redaction": "Arrow of Redaction"

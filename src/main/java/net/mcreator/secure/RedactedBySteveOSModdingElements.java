@@ -50,6 +50,7 @@ public class RedactedBySteveOSModdingElements {
 	public RedactedBySteveOSModdingElements() {
 		sounds.put(new ResourceLocation("secure", "itemactivation"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("secure", "itemactivation")));
+		sounds.put(new ResourceLocation("secure", "agentdefault"), new net.minecraft.util.SoundEvent(new ResourceLocation("secure", "agentdefault")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("secure").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

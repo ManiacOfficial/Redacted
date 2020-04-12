@@ -1,8 +1,10 @@
 {
   "item.secure.rds": "Redacted Stick",
+  "item.secure.agentdefault": "Agent Default",
   "item.minecraft.lingering_potion.effect.redaction": "Lingering Redaction",
   "item.minecraft.potion.effect.redaction": "Redaction",
   "effect.redaction": "Redaction",
+  "item.secure.agentdefault.desc": "Great For Alex/Steve Skins!",
   "item.secure.redactedsword": "Redacted Sword",
   "item.minecraft.splash_potion.effect.redaction": "Splash Redaction",
   "item.minecraft.tipped_arrow.effect.redaction": "Arrow of Redaction"
