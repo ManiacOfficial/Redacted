@@ -88,6 +88,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "RdS",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RdSwR",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RdsR",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -100,6 +124,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.secure.rds": "Redacted Stick",
       "item.minecraft.lingering_potion.effect.redaction": "Lingering Redaction",
       "item.minecraft.potion.effect.redaction": "Redaction",
       "effect.redaction": "Redaction",
