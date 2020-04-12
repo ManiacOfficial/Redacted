@@ -1,0 +1,11 @@
+{
+  "itemactivation": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "secure:itemactivate",
+        "stream": false
+      }
+    ]
+  }
+}

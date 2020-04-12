@@ -1,0 +1,26 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "redacsword",
+    "customModelName": "Normal",
+    "name": "Redacted Sword",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 0,
+    "damageVsEntity": 3.35,
+    "usageCount": 50,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onItemInUseTick": {
+      "name": "RedactedSwordToolInHandTick"
+    }
+  }
+}
