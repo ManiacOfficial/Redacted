@@ -2,9 +2,9 @@
   "group": "secure",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "012",
+    " 4 ",
+    " 7 "
   ],
   "key": {
     "0": {
@@ -14,11 +14,17 @@
       "item": "minecraft:coal"
     },
     "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "secure:rds"
+    },
+    "7": {
       "item": "secure:rds"
     }
   },
   "result": {
-    "item": "secure:redactedsword",
+    "item": "secure:redactedpickaxe",
     "count": 1
   }
 }

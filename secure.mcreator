@@ -92,6 +92,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "RedactedPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RdPicR",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -117,7 +133,8 @@
       "item.secure.agentdefault.desc": "Great For Alex/Steve Skins!",
       "item.secure.redactedsword": "Redacted Sword",
       "item.minecraft.splash_potion.effect.redaction": "Splash Redaction",
-      "item.minecraft.tipped_arrow.effect.redaction": "Arrow of Redaction"
+      "item.minecraft.tipped_arrow.effect.redaction": "Arrow of Redaction",
+      "item.secure.redactedpickaxe": "Redacted Pickaxe"
     }
   },
   "workspaceSettings": {

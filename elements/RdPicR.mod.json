@@ -9,7 +9,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.COAL#0"
       },
       {
         "value": "Items.IRON_INGOT"
@@ -18,10 +21,7 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Items.COAL#0"
+        "value": "CUSTOM:RdS"
       },
       {
         "value": ""
@@ -37,9 +37,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RedactedSword"
+      "value": "CUSTOM:RedactedPickaxe"
     },
-    "name": "rdswr",
+    "name": "rdpicr",
     "namespace": "mod"
   }
 }

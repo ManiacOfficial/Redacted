@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "redacsword",
+    "texture": "rdpicr",
     "customModelName": "Normal",
-    "name": "Redacted Sword",
+    "name": "Redacted Pickaxe",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
-    "harvestLevel": 1,
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
     "efficiency": 4.0,
-    "attackSpeed": 3.0,
+    "attackSpeed": 1.0,
     "enchantability": 0,
-    "damageVsEntity": 3.35,
-    "usageCount": 50,
+    "damageVsEntity": 2.0,
+    "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
