@@ -88,6 +88,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Penis",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -105,7 +113,8 @@
       "effect.redaction": "Redaction",
       "item.secure.redactedsword": "Redacted Sword",
       "item.minecraft.splash_potion.effect.redaction": "Splash Redaction",
-      "item.minecraft.tipped_arrow.effect.redaction": "Arrow of Redaction"
+      "item.minecraft.tipped_arrow.effect.redaction": "Arrow of Redaction",
+      "item.secure.penis": "Penis"
     }
   },
   "workspaceSettings": {
