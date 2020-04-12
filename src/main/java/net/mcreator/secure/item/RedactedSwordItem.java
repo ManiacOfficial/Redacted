@@ -3,16 +3,12 @@ package net.mcreator.secure.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.entity.Entity;
 
-import net.mcreator.secure.procedures.RedactedSwordToolInHandTickProcedure;
 import net.mcreator.secure.RedactedBySteveOSModdingElements;
 
 @RedactedBySteveOSModdingElements.ModElement.Tag
@@ -50,21 +46,6 @@ public class RedactedSwordItem extends RedactedBySteveOSModdingElements.ModEleme
 				return Ingredient.EMPTY;
 			}
 		}, 3, -1f, new Item.Properties().group(ItemGroup.COMBAT)) {
-			@Override
-			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
-				super.inventoryTick(itemstack, world, entity, slot, selected);
-				int x = (int) entity.posX;
-				int y = (int) entity.posY;
-				int z = (int) entity.posZ;
-				if (selected) {
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
-					RedactedSwordToolInHandTickProcedure.executeProcedure($_dependencies);
-				}
-			}
 		}.setRegistryName("redactedsword"));
 	}
 }

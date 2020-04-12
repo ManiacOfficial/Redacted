@@ -18,9 +18,6 @@
     "usageCount": 50,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
-    "onItemInUseTick": {
-      "name": "RedactedSwordToolInHandTick"
-    }
+    "repairItems": []
   }
 }
